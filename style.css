@@ -9,7 +9,8 @@ html {
 
 body {
   min-height: 100%;  
-  background: #eee;
+  background: black url("https://vpautine.ru/wp-content/uploads/2019/12/Kartinka1.logotip-android.jpg");
+  background-repeat: no-repeat;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #222;
@@ -154,4 +155,9 @@ body {
       background: #79A9CE;
     }
   }
+}
+
+.main{
+text-align: center;
+color: white;
 }
