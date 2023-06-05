@@ -12,8 +12,8 @@ let StartFunc = 0;
             }
 			function myFunction() {
                 (async () => {
-                    //let response = await fetch('https://kav-api.kovalev.team/servodrive/lastActualData?servoDriveId=1');
-		    let response = await fetch('http://localhost:5000');
+                    let response = await fetch('https://kav-api.kovalev.team/servodrive/lastActualData?servoDriveId=1');
+		    //let response = await fetch('http://localhost:5000');
                     let el = document.getElementById('demo')
                     el.innerHTML = ""
                     let text = await response.text(); // прочитать тело ответа как текст
